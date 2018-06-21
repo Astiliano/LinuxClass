@@ -1,0 +1,29 @@
+Commands: pwd, ls, cd, mv, mkdir, cp, touch, rm
+Task #1
+You have 4 friends who are going to work on similar projects. They each need their own directories but they will all be the same structure
+
+Inside of /tmp create the following for 4 people:
+
+[friends name]/notes/week1/day1
+[Friends name]/notes/week1/day2
+[friends name]/notes/week1/day3
+
+[friends name]/week1/tasks/pending
+[friends name]/week1/tasks/completed
+[friends name]/week1/tasks/blocked
+
+
+Create the following files inside of [friends name]/notes/week1/day1, day2, and day3
+commands
+examples
+important
+
+Create the following files inside of [friends name]/week1/tasks/pending
+parts
+setup
+execute
+record
+cleanup
+
+
+
