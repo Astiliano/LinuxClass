@@ -1,8 +1,9 @@
 Commands: pwd, ls, cd, ls -R
 
-Copy and paste the following lines into your terminal
+Copy and paste the following lines into your terminal (One big copy and paste)
 
 ########## BELOW #########
+rm -R /tmp/homes > /dev/null 2>&1 
 mkdir -p /tmp/homes/friend{1..4}/house/{guestbedroom,masterbedroom,kitchen,livingroom}
 mkdir -p /tmp/homes/friend{1..4}/{storage,garage}
 for friend in friend{1..4}; do 
