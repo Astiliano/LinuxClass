@@ -19,11 +19,11 @@ Well, each house sitter threw a party in the house they were sitting and it was 
 There are 9 items scattered around each home in different areas.
 {guestpillow,bowl,couch,ownerbed,spoon,tv,tools,tires,car}
 
-move around each home and answer the following questions for friend1, friend2, friend3, friend4:
+move around each home and answer the following questions:
 
-1) How many rooms have items in them?
-2) What room has the most items?
-3) What room has the least items?
-4) What room is the spoon in?
-5) Where is the car?
+1) How many rooms have items in them in friend1's house??
+2) What room has the most items in friend2's house?
+3) What room has the least items in friend3's house?
+4) Where is the spoon in friend4's house?
+5) Do any of your friend's home have the spoon in the kitchen?
 
