@@ -1,0 +1,28 @@
+Commands: pwd, ls, cd, ls -R
+
+Copy and paste the following lines into your terminal
+
+########## BELOW #########
+mkdir -p /tmp/homes/friend{1..4}/house/{guestbedroom,masterbedroom,kitchen,livingroom}
+mkdir -p /tmp/homes/friend{1..4}/{storage,garage}
+for friend in friend{1..4}; do 
+for item in {guestpillow,bowl,couch,ownerbed,spoon,tv,tools,tires,car}; do touch $(shuf -n1 -e /tmp/homes/$friend/house/{guestbedroom,masterbedroom,kitchen,livingroom})/$item
+done 
+done 
+########## ABOVE #########
+
+Task #1
+You have 4 friends that each have a house, a storage unit, and a garage.
+Each of them went on vacation for a few weeks and each had a house sitter.
+Well, each house sitter threw a party in the house they were sitting and it was a disaster.
+There are 9 items scattered around each home in different areas.
+{guestpillow,bowl,couch,ownerbed,spoon,tv,tools,tires,car}
+
+move around each home and answer the following questions for friend1, friend2, friend3, friend4:
+
+1) How many rooms have items in them?
+2) What room has the most items?
+3) What room has the least items?
+4) What room is the spoon in?
+5) Where is the car?
+
