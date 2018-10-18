@@ -1,4 +1,4 @@
-Commands: pwd, ls, cd, ls -R
+Commands: pwd, ls, cd, cd .. ,ls -R
 
 Copy and paste the following lines into your terminal (One big copy and paste)
 
