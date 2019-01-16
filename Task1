@@ -10,6 +10,7 @@ for friend in friend{1..4}; do
 for item in {guestpillow,bowl,couch,ownerbed,spoon,tv,tools,tires,car}; do touch $(shuf -n1 -e /tmp/homes/$friend/house/{guestbedroom,masterbedroom,kitchen,livingroom})/$item
 done 
 done 
+cd /tmp/homes
 ########## ABOVE #########
 
 Task #1
